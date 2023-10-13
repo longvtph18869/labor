@@ -2,6 +2,7 @@
   "name": "labor",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://longvtph18869.github.io/labor/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -9,6 +10,7 @@
     "bootstrap": "^4.5.0",
     "classnames": "^2.2.6",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^6.0.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-circle-slider": "^1.6.2",
@@ -31,7 +33,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
