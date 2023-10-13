@@ -1,0 +1,27 @@
+@import 'fonts';
+@import 'colors';
+@import 'inheritance';
+@import 'mixin';
+@import 'responsive';
+
+.inner_bg {
+
+  background: url(../img/bg/inner_bg.jpg);
+}
+
+.wlc_overlay {
+  position: relative;
+  z-index: 2;
+
+  &:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: $gradient43;
+    z-index: -1;
+    opacity: .6
+  }
+}

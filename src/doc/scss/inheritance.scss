@@ -1,0 +1,270 @@
+@import 'mixin';
+
+
+%input {
+  font-size: $body_font_size;
+  font-weight: $wightRegular;
+  color: $secondary_color;
+}
+
+
+%primary_btn {
+  font-size: $body_font_size;
+  font-weight: $wightRegular;
+  text-transform: uppercase;
+  color: $white;
+  padding: 15px 30px;
+  background: $secondary_bg;
+  border: none;
+}
+
+
+%social1 {
+  width: 20px;
+  height: 20px;
+  display: block;
+  text-align: center;
+  line-height: 20px;
+  font-style: $small_font_size;
+  color: $body_color;
+}
+
+%social2 {
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  font-style: $small_font_size;
+  color: $dark_social_color;
+  background: $dark_social_bg;
+}
+
+
+%black_overlay {
+  position: relative;
+  z-index: 2;
+
+}
+
+%black_overlay:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: $primary_bg;
+  opacity: .6;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+
+%box {
+  box-shadow: $shadow;
+  background: $white;
+}
+
+
+%inner_overlay {
+  position: relative;
+  z-index: 1;
+}
+
+
+%inner_overlay:after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  height: 100%;
+  width: 60%;
+  background: $inner_gradient_bg;
+  left: 0;
+  top: 0;
+}
+
+
+%category_overlay {
+  position: relative;
+  z-index: 2;
+}
+
+%category_overlay:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  opacity: .6;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background: $primary_bg;
+}
+
+
+%half_bg1 {
+  position: relative;
+  z-index: 2
+}
+
+
+%half_bg1 {
+  &:after {
+    position: absolute;
+    content: "";
+    height: 50%;
+    width: 100%;
+    background: $primary_bg;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+}
+
+
+%half_dark_bg1 {
+  position: relative;
+  z-index: 2
+}
+
+
+%half_dark_bg1 {
+  &:after {
+    position: absolute;
+    content: "";
+    height: 50%;
+    width: 100%;
+    background: $dark_footer_bg;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+}
+
+
+%half_dark_bg60 {
+  position: relative;
+  z-index: 2
+}
+
+
+%half_dark_bg60 {
+  &:after {
+    position: absolute;
+    content: "";
+    height: 60%;
+    width: 100%;
+    background: $dark_footer_bg;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+}
+
+%half_bg60 {
+  position: relative;
+  z-index: 2
+}
+
+
+%half_bg60 {
+  &:after {
+    position: absolute;
+    content: "";
+    height: 60%;
+    width: 100%;
+    background: $primary_bg;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+}
+
+
+%border_left3 {
+  border-left: 3px solid $next_prev_border_bg;
+}
+
+%comment_input_border {
+  border: 1px solid $comment_form_border_color;
+}
+
+
+%button2 {
+  padding: 15px 40px;
+  font-size: $body_font_size;
+  color: $white;
+  background: $secondary_bg;
+  text-transform: uppercase;
+  @include transition(all .3s);
+  font-weight: $wightRegular;
+
+  &:hover {
+    background: $primary_bg;
+    color: $white;
+    @include transition(all .3s);
+  }
+}
+
+
+%button4 {
+  padding: 15px 40px;
+  font-size: $body_font_size;
+  color: $white;
+  background: $gradient41;
+  text-transform: uppercase;
+  @include transition(all .3s);
+  font-weight: $wightRegular;
+
+  &:hover {
+    background: $gradient41;
+    color: $white;
+    @include transition(all .3s);
+  }
+}
+
+%button3 {
+  padding: 15px 40px;
+  font-size: $body_font_size;
+  color: $body_color;
+  border: 1px solid $secondary_border_color;
+  background: $white;
+  text-transform: uppercase;
+  @include transition(all .3s);
+  font-weight: $wightRegular;
+
+  &:hover {
+    background: $secondary_bg;
+    color: $white;
+    @include transition(all .3s);
+  }
+}
+
+
+%button5 {
+  padding: 15px 40px;
+  font-size: $body_font_size;
+  color: $secondary_color;
+  border: 1px solid #7cc6ff;
+  background: #dbf3ff;
+  text-transform: capitalize;
+  @include transition(all .3s);
+  font-weight: $wightRegular;
+
+  &:hover {
+    background: $secondary_bg;
+    color: $white;
+    @include transition(all .3s);
+  }
+}
+
+%box_shadow5 {
+  box-shadow: $shadow5;
+}
+
+
+%text_gradient {
+  background: $gradient41;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
