@@ -101,7 +101,7 @@ const HomePage = () => {
             <TrendingNews />
           </div>
           <div className="col-md-12 col-lg-4">
-            <FollowUs title="THEO DÕI CHÚNG TÔ" />
+            <FollowUs title="THEO DÕI CHÚNG TÔI" />
             <MostView />
           </div>
         </div>
