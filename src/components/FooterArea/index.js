@@ -5,7 +5,7 @@ import FooterMoreNews from "../FooterMoreNews";
 import TwitterFeed from "../TwitterFeed";
 import FontAwesome from "../uiStyle/FontAwesome";
 
-import flogo from '../../doc/img/logo/footer_logo.png';
+import flogo from '../../doc/img/logo/logo.png';
 import FooterNewsCategories from "../FooterNewsCategories";
 
 const FooterArea = ({className}) => {
@@ -46,7 +46,7 @@ const FooterArea = ({className}) => {
                         </div>
                     </div>
                 </div>
-                <div className="border_white"/>
+                {/* <div className="border_white"/>
                 <div className="space-40"/>
                 <div className="row justify-content-center">
                     <div className="col-lg-8">
@@ -139,7 +139,7 @@ const FooterArea = ({className}) => {
                     <div className="col-lg-4">
                         <FooterMoreNews/>
                     </div>
-                </div>
+                </div> */}
             </div>
             <FooterCopyright/>
         </div>

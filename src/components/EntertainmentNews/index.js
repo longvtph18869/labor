@@ -15,7 +15,7 @@ const EntertainmentNews = ({entertainments}) => {
                             </div>
                         </div>
                         <div className="single_post_text">
-                            <div className="meta3"><Link to="/">TECHNOLOGY</Link>
+                            <div className="meta3"><Link to="/">{item.category}</Link>
                                 <Link to="/">{item.date}</Link>
                             </div>
                             <h4><Link to="/post1">{item.title}</Link></h4>
