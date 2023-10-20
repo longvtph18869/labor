@@ -59,7 +59,7 @@ const WidgetTabPane = ({arr, a_id, id, dark}) => {
                             </div>
                         </div>
                         <div className="space-15"/>
-                        {dark ? <div className="border_white"/> : <div className="border_black"/>}
+                        {/* {dark ? <div className="border_white"/> : <div className="border_black"/>} */}
                         <div className="space-15"/>
                     </Fragment>
                 ))}

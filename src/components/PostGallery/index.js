@@ -130,9 +130,9 @@ class PostGallery extends Component {
       <div className={`post_gallary_area mb40 ${className}`}>
         <div className="container">
           <div className="row">
-            <div className="col-lg-9">
+            <div className="col-xl-9">
               <div className="row">
-                <div className="col-xl-8">
+                <div className="col-lg-8">
                   <div className="row">
                     <div className="col-12">
                       <Heading title="TIN TỨC NỔI BẬT" />
@@ -185,7 +185,7 @@ class PostGallery extends Component {
                     </Slider>
                   </div> */}
                 </div>
-                <div className="col-xl-4">
+                <div className="col-lg-4">
                   <div className="row">
                     <div className="col-12">
                       <Heading title="TIN TỨC MỚI NHẤT" more={true} />
@@ -195,15 +195,15 @@ class PostGallery extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-xl-3">
               <div class="banner-home pc mb10">
                 <a>
                   <img src="https://nhatban24h.vn/public/media/files/xkld-nhat-ban-phi-re.gif" />
                 </a>
               </div>
               <div class="banner-home pc mb10">
-                <a>
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgoOczfPdlOYIc2_hewpGuM_7pTM2obUBmeg&usqp=CAU" />
+                <a style={{width:"100%"}}>
+                  <img style={{width:"100%"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgoOczfPdlOYIc2_hewpGuM_7pTM2obUBmeg&usqp=CAU" />
                 </a>
               </div>
               <div class="banner-home pc ">
