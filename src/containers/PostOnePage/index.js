@@ -62,7 +62,7 @@ const PostOnePage = () => {
                       52
                     </li>
                   </ul>
-                </div>
+                </div> 
                 <div className="space-10" />
                 <blockquote>
                   <p>

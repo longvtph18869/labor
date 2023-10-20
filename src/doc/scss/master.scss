@@ -675,6 +675,7 @@ a.social_medium {
 .post_img img {
   object-fit: cover;
   width: 100%;
+  min-height: 155px;
 }
 
 .readmore {
@@ -1352,7 +1353,7 @@ span.tranding {
     width: 49%;
     float: left;
     padding: 0;
-    padding-left: 30px;
+    padding-left: 15px;
   }
 }
 
@@ -2332,7 +2333,7 @@ a.cbtn3 {
       float: unset;
       padding: 0;
       padding-left: 0;
-      padding: 20px;
+      padding: 20px 0;
     }
 
     .post_img {
@@ -2660,7 +2661,7 @@ a.cbtn3 {
       float: unset;
       padding: 0;
       padding-left: 0;
-      padding: 20px;
+      padding: 20px 0;
     }
 
     .post_img {
@@ -2953,10 +2954,10 @@ body::-webkit-scrollbar-thumb:hover {
 .heading a i {
   margin-left: 5px;
 }
-.heading h2{
+.heading h2 {
   flex: 1;
 }
-.heading a{
+.heading a {
   font-size: 13px;
 }
 .type8 .post_img {
@@ -2967,10 +2968,10 @@ body::-webkit-scrollbar-thumb:hover {
   min-height: 64px;
   padding-left: 90px;
 }
-.banner-home a{
+.banner-home a {
   margin-bottom: 20px;
 }
-.single_post_heading h2{
+.single_post_heading h2 {
   font-size: 22px;
 }
 blockquote {
@@ -2978,4 +2979,23 @@ blockquote {
   margin: 0 0 20px;
   font-size: 16px;
   border-left: 5px solid #eee;
+}
+.post-lst-type .post_img {
+  width: 30%;
+}
+.post-lst-type .single_post_text {
+  width: 70%;
+}
+@media screen and (max-width: 960px) {
+  .post-lst-type .post_img {
+    width: 100%;
+    float: unset;
+  }
+  .post-lst-type .single_post_text {
+    width: 100%;
+    float: unset;
+}
+}
+.post-lst-type .single_post_text h4 a{
+  font-size: 18px;
 }

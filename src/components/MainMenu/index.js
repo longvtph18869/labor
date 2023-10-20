@@ -64,12 +64,12 @@ const menus = [
     submenu: [
       {
         id: 41,
-        link: "/business",
+        link: "/tin-tuc-nhat-ban",
         linkText: "Kỹ sư đi Nhật",
       },
       {
         id: 41,
-        link: "/business",
+        link: "/tin-tuc-nhat-ban",
         linkText: "Kỹ sư đi Hàn Quốc",
       },
     ],
@@ -242,8 +242,8 @@ const menusDark = [
     submenu: [
       {
         id: 41,
-        link: "/dark/business",
-        linkText: "Business",
+        link: "/dark/tin-tuc-nhat-ban",
+        linkText: "tin-tuc-nhat-ban",
       },
       {
         id: 42,

@@ -97,7 +97,7 @@ const Routes = () => {
                 component={HomePage}/>
             <PrivateRoute
                 exact
-                path="/business"
+                path="/tin-tuc-nhat-ban"
                 parentClass="theme-1"
                 component={BusinessPage}/>
             <PrivateRoute
