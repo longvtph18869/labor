@@ -1,10 +1,6 @@
 import React, { useState } from "react";
-import FontAwesome from "../uiStyle/FontAwesome";
 import { Link } from "react-router-dom";
 import Swiper from "react-id-swiper";
-
-import trendbig1 from "../../doc/img/trending/trendbig1.jpg";
-import trendbig2 from "../../doc/img/trending/trendbig2.jpg";
 
 const trendingNews = [
   {
@@ -35,19 +31,19 @@ const trendingNews = [
   },
 ];
 const TrendingNewsSlider = () => {
-  const [swiper, setSwiper] = useState(null);
+  // const [swiper, setSwiper] = useState(null);
 
-  const goNext = () => {
-    if (swiper !== null) {
-      swiper.slideNext();
-    }
-  };
+  // const goNext = () => {
+  //   if (swiper !== null) {
+  //     swiper.slideNext();
+  //   }
+  // };
 
-  const goPrev = () => {
-    if (swiper !== null) {
-      swiper.slidePrev();
-    }
-  };
+  // const goPrev = () => {
+  //   if (swiper !== null) {
+  //     swiper.slidePrev();
+  //   }
+  // };
   const params = {
     slidesPerView: 2,
     spaceBetween: 20,
@@ -78,7 +74,6 @@ const TrendingNewsSlider = () => {
           delay: 3000,
           disableOnInteraction: false,
         }}
-        getSwiper={setSwiper}
         className="trancarousel"
         {...params}
       >

@@ -2,13 +2,6 @@ import React, { Fragment } from "react";
 import Heading from "../uiStyle/Heading";
 import TrendingNewsSlider from "../TrendingNewsSlider";
 import { Link } from "react-router-dom";
-import FontAwesome from "../uiStyle/FontAwesome";
-
-import transm1 from "../../doc/img/trending/transm1.jpg";
-import transm2 from "../../doc/img/trending/transm2.jpg";
-import transm4 from "../../doc/img/trending/transm4.jpg";
-import transm5 from "../../doc/img/trending/transm5.jpg";
-import transm6 from "../../doc/img/trending/transm6.jpg";
 
 const trendingNews = [
   {

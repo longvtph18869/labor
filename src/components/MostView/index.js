@@ -1,15 +1,6 @@
 import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
-import FontAwesome from "../uiStyle/FontAwesome";
 import Swiper from "react-id-swiper";
-
-// images
-import mostsm1 from "../../doc/img/most_view/mostsm1.jpg";
-import mostsm2 from "../../doc/img/most_view/mostsm2.jpg";
-import mostsm3 from "../../doc/img/most_view/mostsm3.jpg";
-import mostsm4 from "../../doc/img/most_view/mostsm4.jpg";
-import mostsm5 from "../../doc/img/most_view/mostsm5.jpg";
-import { mostViewSort } from "../../utils/commonFunctions";
 
 const mostView = [
   {
@@ -51,19 +42,19 @@ const mostView = [
 ];
 
 const MostView = ({ no_margin, title, dark }) => {
-  const [swiper, setSwiper] = useState(null);
+  // const [swiper, setSwiper] = useState(null);
 
-  const goNext = () => {
-    if (swiper !== null) {
-      swiper.slideNext();
-    }
-  };
+  // const goNext = () => {
+  //   if (swiper !== null) {
+  //     swiper.slideNext();
+  //   }
+  // };
 
-  const goPrev = () => {
-    if (swiper !== null) {
-      swiper.slidePrev();
-    }
-  };
+  // const goPrev = () => {
+  //   if (swiper !== null) {
+  //     swiper.slidePrev();
+  //   }
+  // };
 
   const params = {
     slidesPerView: 1,
@@ -75,7 +66,7 @@ const MostView = ({ no_margin, title, dark }) => {
         {title ? title : "TIN TỨC VIỆC LÀM NGOÀI NƯỚC"}
       </h2>
       <div className="post_type2_carousel multipleRowCarousel nav_style1">
-        <Swiper getSwiper={setSwiper} {...params}>
+        <Swiper  {...params}>
           {mostView.map((item, i) => (
             <div key={i} className="single_post2_carousel">
               <div className="single_post widgets_small type8">

@@ -1,21 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import FontAwesome from "../uiStyle/FontAwesome";
 import Swiper from "react-id-swiper";
 
-// images
-import sports2 from "../../doc/img/sports/sports2.jpg";
-import sports3 from "../../doc/img/sports/sports3.jpg";
-import sports4 from "../../doc/img/sports/sports4.jpg";
-import sports5 from "../../doc/img/sports/sports5.jpg";
-import sports6 from "../../doc/img/sports/sports6.jpg";
-import blog_small1 from "../../doc/img/blog/blog_small1.jpg";
-import blog_small2 from "../../doc/img/blog/blog_small2.jpg";
-import blog_small3 from "../../doc/img/blog/blog_small3.jpg";
-import blog_small4 from "../../doc/img/blog/blog_small4.jpg";
-import blog_small5 from "../../doc/img/blog/blog_small5.jpg";
 
-import { mostViewSort } from "../../utils/commonFunctions";
 
 const mostView = [
   {
@@ -82,19 +69,19 @@ const mostView = [
 ];
 
 const SportsCarousel = ({ dark }) => {
-  const [swiper, setSwiper] = useState(null);
+  // const [swiper, setSwiper] = useState(null);
 
-  const goNext = () => {
-    if (swiper !== null) {
-      swiper.slideNext();
-    }
-  };
+  // const goNext = () => {
+  //   if (swiper !== null) {
+  //     swiper.slideNext();
+  //   }
+  // };
 
-  const goPrev = () => {
-    if (swiper !== null) {
-      swiper.slidePrev();
-    }
-  };
+  // const goPrev = () => {
+  //   if (swiper !== null) {
+  //     swiper.slidePrev();
+  //   }
+  // };
 
   const params = {
     slidesPerView: 1,
@@ -104,7 +91,7 @@ const SportsCarousel = ({ dark }) => {
     <div className="widget tab_widgets">
       <div className="post_type2_carousel multipleRowCarousel nav_style1">
         {/*CAROUSEL START*/}
-        <Swiper getSwiper={setSwiper} {...params}>
+        <Swiper {...params}>
           {mostView.map((item, i) => (
             <div key={i} className="single_post2_carousel">
               <div className="single_post widgets_small">

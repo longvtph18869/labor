@@ -5,27 +5,13 @@ import FeatureNews from "../../components/FeatureNews";
 import TrendingNews from "../../components/TrendingNews";
 import FollowUs from "../../components/FollowUs";
 import MostView from "../../components/MostView";
-import MixCarousel from "../../components/MixCarousel";
-import VideoPost from "../../components/VideoPost";
 import EntertainmentNews from "../../components/EntertainmentNews";
 import { Link } from "react-router-dom";
 import SportsNews from "../../components/SportsNews";
 import BusinessNews from "../../components/BusinessNews";
-import MostShareWidget from "../../components/MostShareWidget";
-import UpcomingMatches from "../../components/UpcomingMatches";
-import NewsLetter from "../../components/NewsLetter";
-import CategoriesWidget from "../../components/CategoriesWidget";
 
 // images
 import banner1 from "../../doc/img/bg/banner1.png";
-import banner2 from "../../doc/img/bg/sidebar-1.png";
-import business1 from "../../doc/img/business/business1.jpg";
-import business2 from "../../doc/img/business/business2.jpg";
-import business3 from "../../doc/img/business/business3.jpg";
-import enter1 from "../../doc/img/entertrainment/enter1.jpg";
-import enter2 from "../../doc/img/entertrainment/enter2.jpg";
-import enter3 from "../../doc/img/entertrainment/enter3.jpg";
-import enter4 from "../../doc/img/entertrainment/enter4.jpg";
 import Heading from "../../components/uiStyle/Heading";
 
 const entertainments = [

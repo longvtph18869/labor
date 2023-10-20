@@ -2,7 +2,6 @@ import React, {Fragment, useState} from 'react';
 import BreadCrumb from "../../components/BreadCrumb";
 import FontAwesome from "../../components/uiStyle/FontAwesome";
 import {Link} from "react-router-dom";
-import WidgetTab from "../../components/WidgetTab";
 import BannerSection from "../../components/BannerSection";
 import PostOnePagination from "../../components/PostOnePagination";
 import OurBlogSection from "../../components/OurBlogSection";

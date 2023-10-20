@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../doc/img/logo/logo.png";
 import logoDark from "../../doc/img/logo/footer_logo.png";
-import tp_banner from "../../doc/img/bg/banner1.png";
 
 const LogoArea = ({ className, dark }) => {
   return (
@@ -31,7 +30,7 @@ const LogoArea = ({ className, dark }) => {
                     <tr>
                       <td> Email: </td>
                       <td>
-                        <a>abc@gmail.com</a>{" "}
+                        <a href="email:abc@gmail.com">abc@gmail.com</a>
                       </td>
                     </tr>
                   </tbody>

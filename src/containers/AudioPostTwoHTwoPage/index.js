@@ -5,7 +5,6 @@ import BannerSection from "../../components/BannerSection";
 import PostOnePagination from "../../components/PostOnePagination";
 import OurBlogSectionTwo from "../../components/OurBlogSectionTwo";
 import BlogComment from "../../components/BlogComment";
-import WidgetTab from "../../components/WidgetTab";
 
 // images
 import author2 from "../../doc/img/author/author2.png";
